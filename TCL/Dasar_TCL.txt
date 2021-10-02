@@ -1,0 +1,16 @@
+Transaction Control Language (TCL) adalah perintah SQL yang berhubungan dengan transaksi di database
+Perintah TCL antara lain
+
+COMMIT  -> Menyimpan transaksi secara permanen
+ROLLBACK -> Mengembalikan database ke bentuk awal / COMMIT terakhi
+
+-COMMIT
+START TRANSACTION;
+INSERT INTO table_name VALUES (value1,value2,value3);
+COMMIT;
+
+-ROLLBACK
+START TRANSACTION;
+INSERT INTO table_name VALUES (value1,value2,value3);
+ROOLBACK;
+
