@@ -1,0 +1,21 @@
+============================
+  INSTALLASI XAMPP
+============================
+
+$ donwload xampp
+$ cd /home/[username]/Downloads
+$ sudo chmod 755 [package_name]
+$ sudo ./[package_name]
+$ ikutit perintah sampaia finish
+$ start mysql & apache
+$ http://localhost/phpmyadmin (in browser)
+
+source : https://phoenixnap.com/kb/how-to-install-xampp-on-ubuntu
+
+============================
+  UNINSTALL XAMPP
+============================
+$ cd /opt/lampp
+$ sudo ./uninstal
+$ pilih yes
+$ sudo rm –r /opt/lampp
