@@ -1,0 +1,12 @@
+=====================
+-- MYSQL WORKBENCH
+=====================
+
+$ https://dev.mysql.com/downloads/file/?id=505954 (downlaod file)
+$ cd Donwsloads
+$ ls *.deb
+$ sudo dpkg -i [nama_file]
+$ sudo apt-get install -f (jika error)
+
+sumber :
+  http://linuxminttutorial.blogspot.com/2012/12/install-mysql-workbench-di-linux-mint.html
