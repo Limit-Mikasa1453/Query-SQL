@@ -1,4 +1,4 @@
 ## Angka Acak
-```
+```sql
 SELECT ROUND(DBMS_RANDOM.VALUE(10,1000)) KD_STORE FROM DUAL;
 ```
